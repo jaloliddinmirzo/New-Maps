@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*:focus{
+    outline: 1px dashed #000;
+    outline-offset: 1px;
+}
+html{
+    height: 100%;
+    scroll-behavior: initial;  
+}
+body{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+img{
+    display: flex;
+}
+
+#map{
+    height: 800px;
+}
